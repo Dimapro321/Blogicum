@@ -183,9 +183,7 @@ def profile(request, username):
     paginator = Paginator(post_list, POSTS_IN_INDEX)
     page_number = request.GET.get("page")
     page_obj = paginator.get_page(page_number)
-
     context = {
-
         "profile": user,
         "page_obj": page_obj,
         "posts": page_obj,
