@@ -1,0 +1,5 @@
+
+# views.py
+MAX_POSTS = 5
+POSTS_IN_CATEGORY = 10
+POSTS_IN_PROFILE = 10
